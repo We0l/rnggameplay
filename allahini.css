@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 64vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-btn {
+  padding: 32px 128px;
+  font-size: 40px;
+  margin-top: 6vh;
+  outline: 0;
+  box-shadow: 1px 1px;
+  background-color: "#DCDCDC";
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+.gear1 {
+  position: absolute;
+  left: 95vw;
+  top: 5vh;
+}
+.geartext {
+  position: absolute;
+  left: 94.5vw;
+  top: 1.6vh;
+  font-family: "Poppins", sans-serif;
+}
+.gear1imageclass {
+  opacity: 0.3;
+}
+.main-btn:hover {
+  cursor: pointer;
+  background-color: "#555555";
+}
+.divineshit {
+  position: absolute;
+  left: 3.5vw;
+  top: 4vh;
+  font-family: "Poppins", sans-serif;
+  background-image: url(loveyourself.png);
+  background-color: white;
+}
